@@ -1,0 +1,92 @@
+{
+    "additional-repositories": [
+        "multilib"
+    ],
+    "audio": "pipewire",
+    "config_version": "2.5.1",
+    "debug": false,
+    "harddrives": [
+        "/dev/nvme0n1"
+    ],
+    "hostname": "levis-arch",
+    "mirror-region": {
+        "India": {
+            "http://mirror.sahil.world/archlinux/$repo/os/$arch": true,
+            "http://mirrors.nxtgen.com/archlinux-mirror/$repo/os/$arch": true,
+            "https://mirror.albony.xyz/archlinux/$repo/os/$arch": true,
+            "https://mirror.sahil.world/archlinux/$repo/os/$arch": true,
+            "https://mirrors.abhy.me/archlinux/$repo/os/$arch": true,
+            "https://mirrors.nxtgen.com/archlinux-mirror/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
+    "offline": false,
+    "packages": [
+        "plasma",
+        "xorg",
+        "sddm",
+        "vim",
+        "konsole",
+        "firefox",
+        "maim",
+        "gwenview",
+        "ffmpegthumbs",
+        "kdeconnect",
+        "ktorrent",
+        "kate",
+        "kcalc",
+        "dolphin",
+        "ark",
+        "dolphin-plugins",
+        "ntfs-3g",
+        "zathura",
+        "zathura-cb",
+        "zathura-djvu",
+        "zathura-pdf-poppler",
+        "zathura-ps",
+        "mpv",
+        "libreoffice-fresh",
+        "gimp",
+        "kdenlive",
+        "ttf-fira-code",
+        "ttf-droid",
+        "ttf-hack",
+        "noto-fonts-emoji",
+        "noto-fonts",
+        "curl",
+        "wget",
+        "git",
+        "amd-ucode",
+        "mesa",
+        "lib32-mesa",
+        "xf86-video-amdgpu",
+        "vulkan-radeon",
+        "lib32-vulkan-radeon",
+        "libva-mesa-driver",
+        "lib32-libva-mesa-driver",
+        "mesa-vdpau",
+        "lib32-mesa-vdpau",
+        "nvidia",
+        "lib32-nvidia-utils",
+        "nvidia-settings",
+        "bluez",
+        "acpi_call",
+        "code",
+        "ttf-ibm-plex"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "timezone": "Asia/Kolkata",
+    "version": "2.5.1"
+}

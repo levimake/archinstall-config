@@ -1,0 +1,110 @@
+{
+    "/dev/nvme0n1": {
+        "partitions": [
+            {
+                "ESP": true,
+                "PARTUUID": "99f4e9fc-e819-433a-a9d5-4d91941b4342",
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "vfat"
+                },
+                "mountpoint": "/boot",
+                "size": 204800,
+                "start": 2048,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "6ee01e33-db3a-415a-9e0a-5735a2b9a02c",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": null
+                },
+                "mountpoint": null,
+                "size": 32768,
+                "start": 206848,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "e68fe047-6171-4d8c-86c5-922b08b1f957",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ntfs"
+                },
+                "mountpoint": null,
+                "size": 828774400,
+                "start": 239616,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "52a9c30b-0fdb-42c5-a659-cb1a3e604477",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ntfs"
+                },
+                "mountpoint": null,
+                "size": 1280000,
+                "start": 829014016,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "ec07416a-158f-0345-ac2a-87d7a2d828d6",
+                "boot": false,
+                "btrfs": {
+                    "subvolumes": [
+                        {
+                            "compress": false,
+                            "mountpoint": "/",
+                            "name": "@",
+                            "nodatacow": false
+                        },
+                        {
+                            "compress": false,
+                            "mountpoint": "/home",
+                            "name": "@home",
+                            "nodatacow": false
+                        },
+                        {
+                            "compress": false,
+                            "mountpoint": "/var/log",
+                            "name": "@log",
+                            "nodatacow": false
+                        },
+                        {
+                            "compress": false,
+                            "mountpoint": "/var/cache/pacman/pkg",
+                            "name": "@pkg",
+                            "nodatacow": false
+                        },
+                        {
+                            "compress": false,
+                            "mountpoint": "/.snapshots",
+                            "name": "@.snapshots",
+                            "nodatacow": false
+                        }
+                    ]
+                },
+                "encrypted": false,
+                "filesystem": {
+                    "format": "btrfs"
+                },
+                "mountpoint": "/",
+                "size": 169920512,
+                "start": 830294016,
+                "type": "primary",
+                "wipe": true
+            }
+        ]
+    }
+}

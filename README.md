@@ -40,3 +40,4 @@ Users could create your own configs from the sample.
   - [ ] Use integrated GPU on battery startup and nvidia on ext. power startup
 - [ ] Enable Conservation Mode with a prompt (this extends the battery life by limiting the charging to 60% if you prefers using the laptop on external power for long) (this should be asked as a question so users could opt out)
 - [ ] Include other tweaks to include more lenovo laptop specific features (rapid charging, perfomance modes)
+- [ ] Make the installer silent 👍

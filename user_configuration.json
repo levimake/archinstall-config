@@ -83,7 +83,8 @@
         "code",
         "ttf-ibm-plex",
 	"nano",
-	"neofetch"
+	"neofetch",
+	"vifm"
     ],
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"

@@ -32,7 +32,7 @@ Users could create your own configs from the sample.
 
 ## TODO
 - [ ] Include post-install commands to set the following:
-  - [ ] Install yay - package manager for AUR
+  - [ ] Install yay / paru - package manager for AUR
   - [ ] Install deadbeef (audio player) and optimus-manager (GPU-switcher)
   - [ ] Enable sddm and NetworkManager
 - [ ] Optimus-Manager tweaks:
